@@ -2,7 +2,7 @@
 
 A modern, responsive website for Brewed Awakening coffee shop, built with React, TypeScript, and Tailwind CSS. The website features a beautiful design with a warm color palette, smooth animations, and a fully responsive layout that works seamlessly across all devices.
 
-![Hero Section](Screenshot 2025-02-06 005148.png)
+![Alt text](Screenshot 2025-02-06 005148.png)
 
 ## Features
 
