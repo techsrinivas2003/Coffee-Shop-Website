@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brewed Awakening - Coffee Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">Brewed Awakening</div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Welcome to Brewed Awakening</h1>
+            <p>Your daily dose of caffeine</p>
+            <a href="#menu" class="cta-button">View Menu</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="menu" class="menu-section">
+            <h2>Our Menu</h2>
+            <div class="menu-container">
+                <div class="menu-category">
+                    <h3>Coffee</h3>
+                    <div class="menu-grid">
+                        <article class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Espresso">
+                            <h4>Espresso</h4>
+                            <p>A strong and bold coffee experience.</p>
+                            <span class="price">$2.50</span>
+                        </article>
+                        <article class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Latte">
+                            <h4>Latte</h4>
+                            <p>Smooth espresso with steamed milk.</p>
+                            <span class="price">$3.50</span>
+                        </article>
+                        <article class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1534687941688-651ccaafbff8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Cappuccino">
+                            <h4>Cappuccino</h4>
+                            <p>A delightful mix of espresso, milk, and foam.</p>
+                            <span class="price">$3.75</span>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="menu-category">
+                    <h3>Breakfast</h3>
+                    <div class="menu-grid">
+                        <article class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1550507992-eb63ffee0847?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Breakfast Sandwich">
+                            <h4>Breakfast Sandwich</h4>
+                            <p>Eggs, cheese, and bacon on a croissant.</p>
+                            <span class="price">$6.50</span>
+                        </article>
+                        <article class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Pancakes">
+                            <h4>Pancakes</h4>
+                            <p>Stack of fluffy pancakes with maple syrup.</p>
+                            <span class="price">$8.00</span>
+                        </article>
+                        <article class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Avocado Toast">
+                            <h4>Avocado Toast</h4>
+                            <p>Fresh avocado on artisanal sourdough.</p>
+                            <span class="price">$7.50</span>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <p>Established in 2020, Brewed Awakening is more than just a coffee shop - it's a community hub where coffee lovers gather to enjoy expertly crafted beverages and delicious breakfast options. Our commitment to quality starts with sourcing the finest coffee beans and extends to every aspect of our service.</p>
+                <p>We believe in creating a warm, welcoming environment where everyone can find their perfect cup of coffee and a moment of peace in their busy day.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Brewed Awakening. All rights reserved.</p>
+    </footer>
+</body>
+</html>
