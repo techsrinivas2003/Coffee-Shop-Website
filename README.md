@@ -1,6 +1,8 @@
 # Brewed Awakening Coffee Shop Website
 
-A modern, responsive website for Brewed Awakening coffee shop, built with HTML and CSS. The website features a beautiful design with a warm color palette, smooth animations, and a fully responsive layout that works seamlessly across all devices.
+A modern, responsive website for Brewed Awakening coffee shop, built with React, TypeScript, and Tailwind CSS. The website features a beautiful design with a warm color palette, smooth animations, and a fully responsive layout that works seamlessly across all devices.
+
+![Hero Section](https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)
 
 ## Features
 
@@ -13,28 +15,42 @@ A modern, responsive website for Brewed Awakening coffee shop, built with HTML a
 - 🍔 Mobile-friendly hamburger menu
 - 🎭 CSS animations and transitions
 
+## Menu Highlights
+
+Our carefully curated menu features premium coffee drinks and breakfast items:
+
+### Coffee Selection
+![Coffee Menu](https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80)
+
+- **Espresso** - A strong and bold coffee experience
+- **Latte** - Smooth espresso with steamed milk
+- **Cappuccino** - A delightful mix of espresso, milk, and foam
+
+### Breakfast Menu
+![Breakfast Selection](https://images.unsplash.com/photo-1550507992-eb63ffee0847?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80)
+
 ## Technologies Used
 
-- HTML5
-- CSS3
+- React 18
+- TypeScript
+- Tailwind CSS
+- Lucide React Icons
+- Vite
 - Google Fonts (Lora, Poppins)
 - Unsplash for high-quality images
 
 ## Project Structure
 
-```
+\`\`\`
 brewed-awakening/
 ├── src/
-│   ├── index.html        # Main HTML file
-│   └── styles.css        # Main CSS file
-└── README.md            # Project documentation
-```
-
-## Getting Started
-
-1. Clone the repository
-2. Open `index.html` in your browser
-3. For development, use a local server to avoid CORS issues with images
+│   ├── App.tsx           # Main React component
+│   ├── index.css        # Global styles and Tailwind imports
+│   └── main.tsx         # React entry point
+├── public/              # Static assets
+├── index.html          # HTML template
+└── README.md           # Project documentation
+\`\`\`
 
 ## Design Features
 
@@ -55,22 +71,22 @@ brewed-awakening/
 ## Sections
 
 1. **Header**
-   - Navigation menu
+   - Navigation menu with Lucide React icons
    - Hero section with CTA
    - Responsive hamburger menu
 
 2. **Menu**
-   - Coffee drinks
-   - Breakfast items
+   - Coffee drinks with images
    - Interactive cards with hover effects
+   ![Menu Items](https://images.unsplash.com/photo-1461023058943-07fcbe16d735?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80)
 
 3. **About Us**
    - Company information
    - Mission statement
 
 4. **Contact**
-   - Contact form
-   - Form validation
+   - Contact form with validation
+   - Modern form design with focus states
 
 5. **Footer**
    - Copyright information
@@ -92,19 +108,19 @@ The website is fully responsive and adapts to different screen sizes:
 
 ## Best Practices
 
+- TypeScript for type safety
 - Semantic HTML5 elements
-- BEM-inspired CSS naming
-- CSS custom properties (variables)
+- Tailwind CSS for styling
 - Mobile-first approach
 - Optimized images
 - Accessible form elements
 
 ## Performance Considerations
 
+- Vite for fast development and optimized builds
 - Optimized image loading
-- Minimal CSS file size
-- No external JavaScript dependencies
-- Efficient CSS selectors
+- Minimal CSS with Tailwind's purge
+- React component optimization
 - Hardware-accelerated animations
 
 ## Future Enhancements
@@ -126,3 +142,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Images: [Unsplash](https://unsplash.com)
 - Fonts: [Google Fonts](https://fonts.google.com)
+- Icons: [Lucide React](https://lucide.dev)
